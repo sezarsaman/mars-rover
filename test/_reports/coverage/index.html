@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="MarsRover\Test\Service\CommandFactoryTest">MarsRover\Test\Service\CommandFactory</h2>
+        <ul>
+            <li style="color: #555753;">✓ IfGiven M CommandMoveIsCreated</li>
+            <li style="color: #555753;">✓ IfGiven R CommandTurnRightIsCreated</li>
+            <li style="color: #555753;">✓ IfGiven L CommandTurnRightIsCreated</li>
+            <li style="color: #555753;">✓ If given invalid input throws exception</li>
+        </ul>
+        <h2 id="MarsRover\Test\Service\CommandsInputParserTest">MarsRover\Test\Service\CommandsInputParser</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can parse valid input to commands collection</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Coordinate\CoordinateTest">MarsRover\Test\Model\Coordinate\Coordinate</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can handle input returning integer to x position</li>
+            <li style="color: #555753;">✓ Can handle input returning integer to y position</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Plateau\PlateauTest">MarsRover\Test\Model\Plateau\Plateau</h2>
+        <ul>
+            <li style="color: #555753;">✓ Have min coordinate to x axis</li>
+            <li style="color: #555753;">✓ Have min coordinate to y axis</li>
+            <li style="color: #555753;">✓ Have max coordinate to x axis</li>
+            <li style="color: #555753;">✓ Have max coordinate to y axis</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Direction\DirectionTest">MarsRover\Test\Model\Direction\Direction</h2>
+        <ul>
+            <li style="color: #555753;">✓ Throws exception when invalid orientation given</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Rover\RoverSetupTest">MarsRover\Test\Model\Rover\RoverSetup</h2>
+        <ul>
+            <li style="color: #555753;">✓ Parse input</li>
+            <li style="color: #555753;">✓ Parse setup to output</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Rover\RoverTest">MarsRover\Test\Model\Rover\Rover</h2>
+        <ul>
+            <li style="color: #555753;">✓ Accepts rover setup</li>
+            <li style="color: #555753;">✓ Execute commands</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Rover\RoverSquadTest">MarsRover\Test\Model\Rover\RoverSquad</h2>
+        <ul>
+            <li style="color: #555753;">✓ Is possible to add rover one</li>
+            <li style="color: #555753;">✓ Squad rover output is correct when just rover one is on squad</li>
+            <li style="color: #555753;">✓ Is possible to add rover two</li>
+            <li style="color: #555753;">✓ Squad rover output is correct when rover one and rover two is on squad</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Command\CommandCollectionTest">MarsRover\Test\Model\Command\CommandCollection</h2>
+        <ul>
+            <li style="color: #555753;">✓ Is possible to add one command</li>
+            <li style="color: #555753;">✓ Is possible to add more than one command</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Command\MoveTest">MarsRover\Test\Model\Command\Move</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can move correctly</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Command\TurnLeftTest">MarsRover\Test\Model\Command\TurnLeft</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can turn lef correctly</li>
+        </ul>
+        <h2 id="MarsRover\Test\Model\Command\TurnRightTest">MarsRover\Test\Model\Command\TurnRight</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can turn right correctly</li>
+        </ul>
+    </body>
+</html>
