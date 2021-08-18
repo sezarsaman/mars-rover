@@ -17,9 +17,9 @@ Please, install XDebug to get awesome code coverage html report in the same dire
 `make test`
 
 And access:  
-mars-rovers-squad/test/_reports/coverage/index.html and  
-mars-rovers-squad/test/_reports/coverage/dashboard.html
+mars-rovers-squad/test/_reports/coverage/index.html and
 
+# Case Study
 ## Overview
 Purpose of this challenge is to enable you to demonstrate your proficiency in solving problems
 using software engineering tools and processes. Read the specification below and produce a

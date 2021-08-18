@@ -1,10 +1,10 @@
 {
-    "name": "maykonn/mars-rovers-squad",
+    "name": "sezarsaman/mars-rover",
     "type": "project",
     "authors": [
         {
-            "name": "Maykonn",
-            "email": "maykonn@outlook.com"
+            "name": "Saman",
+            "email": "sezarsaman@gmail.com"
         }
     ],
     "autoload": {
